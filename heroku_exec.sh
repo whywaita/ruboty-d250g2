@@ -3,4 +3,4 @@ mv original.dic /app/vendor/mecab/lib/mecab/dic/ipadic/
 
 echo "userdic = /app/vendor/mecab/lib/mecab/dic/ipadic/original.dic" >> /app/vendor/mecab/lib/mecab/dic/ipadic/dicrc
 
-/app/vendor/bundle/ruby/2.3.1/bin/bundle exec ruboty
+/app/vendor/bundle/ruby/2.3.0/bin/bundle exec ruboty
