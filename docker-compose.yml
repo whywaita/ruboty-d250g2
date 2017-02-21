@@ -1,0 +1,10 @@
+ruboty-d250g2:
+  image: whywaita/docker-ruboty-d250g2
+  environment:
+    - DOCOMO_API_KEY=
+    - KOKODEIKKU_PREFIX=これ575ですね
+    - MECAB_PATH=/usr/local/lib/libmecab.so
+    - SLACK_PASSWORD=
+    - SLACK_ROOM=general
+    - SLACK_TEAM=d250g2
+    - SLACK_USERNAME=otaku
