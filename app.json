@@ -32,6 +32,10 @@
     "MECAB_PATH": {
       "description": "MeCab PATH",
       "value": "/app/vendor/mecab/lib/libmecab.so"
+    },
+    "KOKODEIKKU_PREFIX": {
+      "description": "prefix kokodeikku",
+      "value": "これ575ですね"
     }
   },
   "keywords": ["chatops"],
