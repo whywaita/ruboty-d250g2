@@ -36,6 +36,10 @@
     "KOKODEIKKU_PREFIX": {
       "description": "prefix kokodeikku",
       "value": "これ575ですね"
+    },
+    "BUILDPACK_URL": {
+      "description": "set buildpack",
+      "value": "https://github.com/heroku/heroku-buildpack-multi.git"
     }
   },
   "keywords": ["chatops"],
