@@ -21,6 +21,25 @@
     "TZ": {
       "description": "Timezone.",
       "value": "Asia/Tokyo"
+    },
+    "DOCOMO_API_KEY": {
+      "description": "ruboty-talk use docomo API"
+    },
+    "LD_LIBRARY_PATH": {
+      "description": "LD_LIBRARY_PATH",
+      "value": "/app/vendor/mecab/lib"
+    },
+    "MECAB_PATH": {
+      "description": "MeCab PATH",
+      "value": "/app/vendor/mecab/lib/libmecab.so"
+    },
+    "KOKODEIKKU_PREFIX": {
+      "description": "prefix kokodeikku",
+      "value": "これ575ですね"
+    },
+    "BUILDPACK_URL": {
+      "description": "set buildpack",
+      "value": "https://github.com/heroku/heroku-buildpack-multi.git"
     }
   },
   "keywords": ["chatops"],
