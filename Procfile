@@ -1,1 +1,1 @@
-hobby: bash heroku_exec.sh
+web: bash heroku_exec.sh
