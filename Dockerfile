@@ -24,7 +24,6 @@ RUN /usr/local/libexec/mecab/mecab-dict-index -d /usr/local/lib/mecab/dic/ipadic
 RUN mv original.dic /usr/local/lib/mecab/dic/ipadic/
 RUN echo "userdic = /usr/local/lib/mecab/dic/ipadic/original.dic" >> /usr/local/lib/mecab/dic/ipadic/dicrc
 
-
 RUN locale-gen ja_JP.UTF-8
 ENV LANG ja_JP.UTF-8
 
