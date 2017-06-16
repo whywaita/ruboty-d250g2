@@ -8,6 +8,7 @@ RUN apt update -qq ;\
     gem install bundler ;\
     rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/*
 
+RUN wget "https://yyta-static.herokuapp.com/wikipedia_hatena.csv"
 RUN /usr/local/libexec/mecab/mecab-dict-index -d /usr/local/lib/mecab/dic/ipadic -u wikipedia_hatena.dic -f utf-8 -t utf-8 wikipedia_hatena.csv
 RUN mv wikipedia_hatena.dic /usr/local/lib/mecab/dic/ipadic/
 RUN echo "userdic = /usr/local/lib/mecab/dic/ipadic/wikipedia_hatena.dic" >> /usr/local/lib/mecab/dic/ipadic/dicrc
