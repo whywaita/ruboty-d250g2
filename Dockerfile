@@ -11,7 +11,7 @@ RUN apt update -qq ;\
 RUN mkdir -p /app/
 WORKDIR /app/
 ADD Gemfile Gemfile
-ADD Gemfile.lock Gemfile.lock
+# ADD Gemfile.lock Gemfile.lock
 RUN bundle install --path=vendor/bundle
 
 ADD dic.csv dic.csv
