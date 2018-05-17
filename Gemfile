@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby "2.3.1"
 
 gem "rake"
-gem "ruboty-slack"
+gem "ruboty-slack_rtm"
 gem "ruboty-twada"
 gem "ruboty-talk"
 gem "ruboty-kokodeikku"
